@@ -1,4 +1,4 @@
-const serverless = require('serverless-http');
+// const serverless = require('serverless-http');
 const express = require('express');
 const app = express();
 app.use(express.urlencoded({ extended: true }));
